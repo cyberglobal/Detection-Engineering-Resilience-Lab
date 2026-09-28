@@ -1,0 +1,53 @@
+{
+  "preview": true,
+  "lastrow": true,
+  "result": {
+    "Account_Domain": [
+      "WORKGROUP",
+      "DESKTOP-QJ4S25N"
+    ],
+    "Account_Name": [
+      "DESKTOP-QJ4S25N$",
+      "labuser"
+    ],
+    "Authentication_Package": "Negotiate",
+    "Caller_Process_ID": "0x60c",
+    "Caller_Process_Name": "C:\\Windows\\System32\\svchost.exe",
+    "ComputerName": "DESKTOP-QJ4S25N",
+    "EventCode": "4625",
+    "EventType": "0",
+    "Failure_Reason": "Unknown user name or bad password.",
+    "Key_Length": "0",
+    "Keywords": "Audit Failure",
+    "LogName": "Security",
+    "Logon_ID": "0x3E7",
+    "Logon_Process": "User32",
+    "Logon_Type": "2",
+    "Message": "An account failed to log on.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tDESKTOP-QJ4S25N$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nLogon Type:\t\t\t2\r\n\r\nAccount For Which Logon Failed:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\tlabuser\r\n\tAccount Domain:\t\tDESKTOP-QJ4S25N\r\n\r\nFailure Information:\r\n\tFailure Reason:\t\tUnknown user name or bad password.\r\n\tStatus:\t\t\t0xC000006D\r\n\tSub Status:\t\t0xC000006A\r\n\r\nProcess Information:\r\n\tCaller Process ID:\t0x60c\r\n\tCaller Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\r\nNetwork Information:\r\n\tWorkstation Name:\tDESKTOP-QJ4S25N\r\n\tSource Network Address:\t127.0.0.1\r\n\tSource Port:\t\t0\r\n\r\nDetailed Authentication Information:\r\n\tLogon Process:\t\tUser32 \r\n\tAuthentication Package:\tNegotiate\r\n\tTransited Services:\t-\r\n\tPackage Name (NTLM only):\t-\r\n\tKey Length:\t\t0\r\n\r\nThis event is generated when a logon request fails. It is generated on the computer where access was attempted.\r\n\r\nThe Subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.\r\n\r\nThe Logon Type field indicates the kind of logon that was requested. The most common types are 2 (interactive) and 3 (network).\r\n\r\nThe Process Information fields indicate which account and process on the system requested the logon.\r\n\r\nThe Network Information fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.\r\n\r\nThe authentication information fields provide detailed information about this specific logon request.\r\n\t- Transited services indicate which intermediate services have participated in this logon request.\r\n\t- Package name indicates which sub-protocol was used among the NTLM protocols.\r\n\t- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.",
+    "OpCode": "Info",
+    "Package_Name__NTLM_only_": "-",
+    "RecordNumber": "17214",
+    "Security_ID": [
+      "S-1-5-18",
+      "S-1-0-0"
+    ],
+    "SourceName": "Microsoft Windows security auditing.",
+    "Source_Network_Address": "127.0.0.1",
+    "Source_Port": "0",
+    "Status": "0xC000006D",
+    "Sub_Status": "0xC000006A",
+    "TaskCategory": "Logon",
+    "Transited_Services": "-",
+    "Type": "Information",
+    "Workstation_Name": "DESKTOP-QJ4S25N",
+    "_raw": "09/20/2026 10:22:03.342 PM\nLogName=Security\nEventCode=4625\nEventType=0\nComputerName=DESKTOP-QJ4S25N\nSourceName=Microsoft Windows security auditing.\nType=Information\nRecordNumber=17214\nKeywords=Audit Failure\nTaskCategory=Logon\nOpCode=Info\nMessage=An account failed to log on.\r\n\r\nSubject:\r\n\tSecurity ID:\t\tS-1-5-18\r\n\tAccount Name:\t\tDESKTOP-QJ4S25N$\r\n\tAccount Domain:\t\tWORKGROUP\r\n\tLogon ID:\t\t0x3E7\r\n\r\nLogon Type:\t\t\t2\r\n\r\nAccount For Which Logon Failed:\r\n\tSecurity ID:\t\tS-1-0-0\r\n\tAccount Name:\t\tlabuser\r\n\tAccount Domain:\t\tDESKTOP-QJ4S25N\r\n\r\nFailure Information:\r\n\tFailure Reason:\t\tUnknown user name or bad password.\r\n\tStatus:\t\t\t0xC000006D\r\n\tSub Status:\t\t0xC000006A\r\n\r\nProcess Information:\r\n\tCaller Process ID:\t0x60c\r\n\tCaller Process Name:\tC:\\Windows\\System32\\svchost.exe\r\n\r\nNetwork Information:\r\n\tWorkstation Name:\tDESKTOP-QJ4S25N\r\n\tSource Network Address:\t127.0.0.1\r\n\tSource Port:\t\t0\r\n\r\nDetailed Authentication Information:\r\n\tLogon Process:\t\tUser32 \r\n\tAuthentication Package:\tNegotiate\r\n\tTransited Services:\t-\r\n\tPackage Name (NTLM only):\t-\r\n\tKey Length:\t\t0\r\n\r\nThis event is generated when a logon request fails. It is generated on the computer where access was attempted.\r\n\r\nThe Subject fields indicate the account on the local system which requested the logon. This is most commonly a service such as the Server service, or a local process such as Winlogon.exe or Services.exe.\r\n\r\nThe Logon Type field indicates the kind of logon that was requested. The most common types are 2 (interactive) and 3 (network).\r\n\r\nThe Process Information fields indicate which account and process on the system requested the logon.\r\n\r\nThe Network Information fields indicate where a remote logon request originated. Workstation name is not always available and may be left blank in some cases.\r\n\r\nThe authentication information fields provide detailed information about this specific logon request.\r\n\t- Transited services indicate which intermediate services have participated in this logon request.\r\n\t- Package name indicates which sub-protocol was used among the NTLM protocols.\r\n\t- Key length indicates the length of the generated session key. This will be 0 if no session key was requested.",
+    "_time": "2026-09-20T22:22:03.342+0100",
+    "host": "DESKTOP-QJ4S25N",
+    "index": "main",
+    "linecount": "61",
+    "punct": "//_::._====-=___.===_===_____.\\r\\r:\\rt_:tt---\\rt_:tt-$",
+    "source": "WinEventLog:Security",
+    "sourcetype": "WinEventLog:Security",
+    "splunk_server": "LAPTOP-SHGCEECC"
+  }
+}

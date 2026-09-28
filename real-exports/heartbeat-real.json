@@ -1,0 +1,26 @@
+{
+  "preview": false,
+  "lastrow": true,
+  "result": {
+    "ComputerName": "DESKTOP-QJ4S25N",
+    "EventCode": "9001",
+    "EventType": "4",
+    "Keywords": "Classic",
+    "LogName": "Application",
+    "Message": "Probe: HEALTHCHECK-f1d62aa4",
+    "OpCode": "Info",
+    "RecordNumber": "1003",
+    "SourceName": "HealthCheckProbe",
+    "TaskCategory": "1",
+    "Type": "Information",
+    "_raw": "09/20/2026 10:09:13.797 PM\nLogName=Application\nEventCode=9001\nEventType=4\nComputerName=DESKTOP-QJ4S25N\nSourceName=HealthCheckProbe\nType=Information\nRecordNumber=1003\nKeywords=Classic\nTaskCategory=1\nOpCode=Info\nMessage=Probe: HEALTHCHECK-f1d62aa4",
+    "_time": "2026-09-20T22:09:13.797+0100",
+    "host": "DESKTOP-QJ4S25N",
+    "index": "main",
+    "linecount": "12",
+    "punct": "//_::._====-=======:_-",
+    "source": "WinEventLog:Application",
+    "sourcetype": "WinEventLog:Application",
+    "splunk_server": "LAPTOP-SHGCEECC"
+  }
+}
