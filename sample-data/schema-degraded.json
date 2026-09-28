@@ -1,0 +1,29 @@
+{
+  "sample_type": "schema-degraded",
+  "provenance": "Controlled schema-drift simulation. Replace with a real degraded export when the later Sysmon/PowerShell drift scenario is completed.",
+  "heartbeat": {
+    "probe_id": "HEALTHCHECK-f1d62aa4",
+    "received": true,
+    "EventCode": 9001,
+    "_time": "2026-09-20T22:09:13.797+0100",
+    "host": "DESKTOP-QJ4S25N",
+    "source": "WinEventLog:Application",
+    "SourceName": "HealthCheckProbe",
+    "Message": "Probe: HEALTHCHECK-f1d62aa4"
+  },
+  "bruteforce_event": {
+    "EventCode": 4625,
+    "_time": "2026-09-20T22:22:03.342+0100",
+    "host": "DESKTOP-QJ4S25N",
+    "source": "WinEventLog:Security",
+    "sourcetype": "WinEventLog:Security",
+    "Account_Name": [
+      "DESKTOP-QJ4S25N$",
+      "labuser"
+    ],
+    "Source_Network_Address": "",
+    "Failure_Reason": "Unknown user name or bad password.",
+    "Authentication_Package": "Negotiate",
+    "Logon_Type": "2"
+  }
+}

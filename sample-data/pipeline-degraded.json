@@ -1,0 +1,23 @@
+{
+  "sample_type": "pipeline-degraded",
+  "provenance": "Lab test state: heartbeat was generated while SplunkForwarder was stopped, so no matching Splunk event existed.",
+  "heartbeat": {
+    "probe_id": "MISSING-BY-DESIGN",
+    "received": false
+  },
+  "bruteforce_event": {
+    "EventCode": 4625,
+    "_time": "2026-09-20T22:22:03.342+0100",
+    "host": "DESKTOP-QJ4S25N",
+    "source": "WinEventLog:Security",
+    "sourcetype": "WinEventLog:Security",
+    "Account_Name": [
+      "DESKTOP-QJ4S25N$",
+      "labuser"
+    ],
+    "Source_Network_Address": "127.0.0.1",
+    "Failure_Reason": "Unknown user name or bad password.",
+    "Authentication_Package": "Negotiate",
+    "Logon_Type": "2"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sample_type": "recovered",
+  "provenance": "Recovery state represented with a healthy real export structure. Replace with a dedicated post-recovery export if desired.",
+  "heartbeat": {
+    "probe_id": "HEALTHCHECK-f1d62aa4",
+    "received": true,
+    "EventCode": 9001,
+    "_time": "2026-09-20T22:09:13.797+0100",
+    "host": "DESKTOP-QJ4S25N",
+    "source": "WinEventLog:Application",
+    "SourceName": "HealthCheckProbe",
+    "Message": "Probe: HEALTHCHECK-f1d62aa4"
+  },
+  "bruteforce_event": {
+    "EventCode": 4625,
+    "_time": "2026-09-20T22:22:03.342+0100",
+    "host": "DESKTOP-QJ4S25N",
+    "source": "WinEventLog:Security",
+    "sourcetype": "WinEventLog:Security",
+    "Account_Name": [
+      "DESKTOP-QJ4S25N$",
+      "labuser"
+    ],
+    "Source_Network_Address": "127.0.0.1",
+    "Failure_Reason": "Unknown user name or bad password.",
+    "Authentication_Package": "Negotiate",
+    "Logon_Type": "2"
+  }
+}
